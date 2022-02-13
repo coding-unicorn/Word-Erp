@@ -1,1 +1,21 @@
 # Word-Erp
+
+Hello and welcome to Word Erp, a collaborative study app to connect individuals of all nationalities in their pursuit of language learning. As you can see on our home screen, there are many pages you can click on. 
+
+The first option, “practice” , enables you to use flashcards to study the language you have selected. You can swipe left and right for the next and previous card, and you can swipe down for the definition. The scrollers at the top are where you set the languages. We designed this to be a very simple and soft UI, to go with the overall feel of easy access to studying your language. Because the database is coded into the app, you can study offline and anywhere without access to internet. 
+
+The option “play” is a multiplayer game that connects your phone to other people waiting to play the game using game center. Because it is using game center, the only private information shared is the public username you have chosen when creating your account. When you have connected with another person, you both have to click play to start the game. Once the game has started you have a three second countdown and sixty seconds to play the game. You are working with the teammate you connected with, and you take turns selecting the correct definition for the words. Person A is choosing a word for Person B to define in the language Person B has selected to learn. Then Person B chooses a word for Person A to define. With each correct turn, another point is added to your collective score, hence the plus one. 
+
+There is a leaderboard to see who has the highest score.
+
+In order to further practice and connect with people internationally, we created a chat section of our app. Again only sharing the game center id, you are able to message with users all over the world. We wrote up simple guidelines for appropriate usage of the app. This app is intended for educational purposes only, and only for the responsible exchange of cultures. Profane or offensive language is forbidden. Due to the time constraint, we were unable to completely make the chat, but we have most of it done. 
+
+
+
+The last page is titled “me” and it is the settings section of our app. You can select your native language for the “definition term” and the language you want to study as the “vocab term”. It also displays your personal high score and practicing streak. We chose these five languages (english, french, spanish, mandarin and hindi) as they are the most spoken languages in the world. If we had more time, we would expand the database as to include more languages, as well as many more words. 
+
+Word Erp was created in Xcode for the Apple App Store. We used many different packages to build this app, including but not limited to GameKit, and MessageKit. The logo is originally drawn. The database is built into the app, and all images and fonts are loaded into the assets folder. We created a universal custom variables page to standardize all color choices, font sizes, and many more including corner radius of buttons, and transitions. 
+
+Our inspiration for this app is as two students who take multiple language courses, we wanted to make something where you could chat and practice with native speakers. Between the flashcard renforcement of vocab, the speed challenge of the game, and the actual conversations with people, we thought that this would be really useful for people like us who want to become fluent in the languages we are learning. The chat feature is especially important for language immersion, given that there is so much more to speaking a language than formal vocabulary. 
+
+If we had more time, we would expand the database as to include more languages, as well as many more words. We also would like to make a streak feature where your streak of days practicing is calculated, and each day you do practice erp is happy. Each day that you do not practice, erp gets increasingly mad. It sends reminder notifications to remind users to practice daily, as daily reinforcement of vocabulary is the best way to learn a language. When erp gets mad, he progressively gets more and more red. If you practice each day, erp will get less and less red until it finally returns to its original muted green color
