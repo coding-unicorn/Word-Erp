@@ -1,0 +1,745 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		840D2EB327B7679E001DB869 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840D2EB227B7679E001DB869 /* AppDelegate.swift */; };
+		840D2EB527B7679E001DB869 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840D2EB427B7679E001DB869 /* SceneDelegate.swift */; };
+		840D2EBA27B7679E001DB869 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 840D2EB827B7679E001DB869 /* Main.storyboard */; };
+		840D2EBC27B767A0001DB869 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 840D2EBB27B767A0001DB869 /* Assets.xcassets */; };
+		840D2EBF27B767A0001DB869 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 840D2EBD27B767A0001DB869 /* LaunchScreen.storyboard */; };
+		840D2ECA27B767A1001DB869 /* Word_ErpTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840D2EC927B767A1001DB869 /* Word_ErpTests.swift */; };
+		840D2ED427B767A1001DB869 /* Word_ErpUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840D2ED327B767A1001DB869 /* Word_ErpUITests.swift */; };
+		840D2ED627B767A1001DB869 /* Word_ErpUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840D2ED527B767A1001DB869 /* Word_ErpUITestsLaunchTests.swift */; };
+		849A017F27B7E69E00C4475A /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 849A017E27B7E69E00C4475A /* GameKit.framework */; };
+		849A018127B7E89700C4475A /* PlayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849A018027B7E89700C4475A /* PlayViewController.swift */; };
+		849A018327B7EAAB00C4475A /* CustomVariables.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849A018227B7EAAB00C4475A /* CustomVariables.swift */; };
+		849A018527B7EE7500C4475A /* Functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849A018427B7EE7500C4475A /* Functions.swift */; };
+		849A018727B7EEE800C4475A /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849A018627B7EEE800C4475A /* Extensions.swift */; };
+		849A018927B7FD8700C4475A /* Poppins-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 849A018827B7FD8700C4475A /* Poppins-Light.ttf */; };
+		849A018B27B8132A00C4475A /* Database.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849A018A27B8132A00C4475A /* Database.swift */; };
+		849A018D27B860BA00C4475A /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849A018C27B860BA00C4475A /* HomeViewController.swift */; };
+		849A018F27B860C900C4475A /* PlayOptionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849A018E27B860C900C4475A /* PlayOptionsViewController.swift */; };
+		849A019127B87C5D00C4475A /* PracticeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849A019027B87C5D00C4475A /* PracticeViewController.swift */; };
+		849A019327B8855000C4475A /* MeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849A019227B8855000C4475A /* MeViewController.swift */; };
+		84AE54FE27B76AF000091A8F /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AE54FD27B76AF000091A8F /* ChatViewController.swift */; };
+		8A3B9B8ECA11D099596B0C9E /* Pods_Word_Erp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EF1A1A6C1724BFA4F65ADF2 /* Pods_Word_Erp.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		840D2EC627B767A1001DB869 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 840D2EA727B7679E001DB869 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 840D2EAE27B7679E001DB869;
+			remoteInfo = "Word Erp";
+		};
+		840D2ED027B767A1001DB869 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 840D2EA727B7679E001DB869 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 840D2EAE27B7679E001DB869;
+			remoteInfo = "Word Erp";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0EF1A1A6C1724BFA4F65ADF2 /* Pods_Word_Erp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Word_Erp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		840D2EAF27B7679E001DB869 /* Word Erp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Word Erp.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		840D2EB227B7679E001DB869 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		840D2EB427B7679E001DB869 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		840D2EB927B7679E001DB869 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		840D2EBB27B767A0001DB869 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		840D2EBE27B767A0001DB869 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		840D2EC027B767A0001DB869 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		840D2EC527B767A1001DB869 /* Word ErpTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Word ErpTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		840D2EC927B767A1001DB869 /* Word_ErpTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Word_ErpTests.swift; sourceTree = "<group>"; };
+		840D2ECF27B767A1001DB869 /* Word ErpUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Word ErpUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		840D2ED327B767A1001DB869 /* Word_ErpUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Word_ErpUITests.swift; sourceTree = "<group>"; };
+		840D2ED527B767A1001DB869 /* Word_ErpUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Word_ErpUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		849A017E27B7E69E00C4475A /* GameKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameKit.framework; path = System/Library/Frameworks/GameKit.framework; sourceTree = SDKROOT; };
+		849A018027B7E89700C4475A /* PlayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayViewController.swift; sourceTree = "<group>"; };
+		849A018227B7EAAB00C4475A /* CustomVariables.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomVariables.swift; sourceTree = "<group>"; };
+		849A018427B7EE7500C4475A /* Functions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Functions.swift; sourceTree = "<group>"; };
+		849A018627B7EEE800C4475A /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		849A018827B7FD8700C4475A /* Poppins-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Light.ttf"; sourceTree = "<group>"; };
+		849A018A27B8132A00C4475A /* Database.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Database.swift; sourceTree = "<group>"; };
+		849A018C27B860BA00C4475A /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		849A018E27B860C900C4475A /* PlayOptionsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayOptionsViewController.swift; sourceTree = "<group>"; };
+		849A019027B87C5D00C4475A /* PracticeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PracticeViewController.swift; sourceTree = "<group>"; };
+		849A019227B8855000C4475A /* MeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeViewController.swift; sourceTree = "<group>"; };
+		84AE54FD27B76AF000091A8F /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		8A79C8ECBCD85BE26CE3E6EF /* Pods-Word Erp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Word Erp.release.xcconfig"; path = "Target Support Files/Pods-Word Erp/Pods-Word Erp.release.xcconfig"; sourceTree = "<group>"; };
+		A1470C2D1D5C49EDCA6D1246 /* Pods-Word Erp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Word Erp.debug.xcconfig"; path = "Target Support Files/Pods-Word Erp/Pods-Word Erp.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		840D2EAC27B7679E001DB869 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A3B9B8ECA11D099596B0C9E /* Pods_Word_Erp.framework in Frameworks */,
+				849A017F27B7E69E00C4475A /* GameKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		840D2EC227B767A1001DB869 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		840D2ECC27B767A1001DB869 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		740DF909792FAA71B78473E9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A1470C2D1D5C49EDCA6D1246 /* Pods-Word Erp.debug.xcconfig */,
+				8A79C8ECBCD85BE26CE3E6EF /* Pods-Word Erp.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		840D2EA627B7679E001DB869 = {
+			isa = PBXGroup;
+			children = (
+				840D2EB127B7679E001DB869 /* Word Erp */,
+				840D2EC827B767A1001DB869 /* Word ErpTests */,
+				840D2ED227B767A1001DB869 /* Word ErpUITests */,
+				840D2EB027B7679E001DB869 /* Products */,
+				740DF909792FAA71B78473E9 /* Pods */,
+				ECDEB6509E26FCA633FE5847 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		840D2EB027B7679E001DB869 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				840D2EAF27B7679E001DB869 /* Word Erp.app */,
+				840D2EC527B767A1001DB869 /* Word ErpTests.xctest */,
+				840D2ECF27B767A1001DB869 /* Word ErpUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		840D2EB127B7679E001DB869 /* Word Erp */ = {
+			isa = PBXGroup;
+			children = (
+				840D2EB227B7679E001DB869 /* AppDelegate.swift */,
+				840D2EB427B7679E001DB869 /* SceneDelegate.swift */,
+				849A019527B8858800C4475A /* Custom */,
+				849A018C27B860BA00C4475A /* HomeViewController.swift */,
+				849A019027B87C5D00C4475A /* PracticeViewController.swift */,
+				849A018E27B860C900C4475A /* PlayOptionsViewController.swift */,
+				849A018027B7E89700C4475A /* PlayViewController.swift */,
+				84AE54FD27B76AF000091A8F /* ChatViewController.swift */,
+				849A019227B8855000C4475A /* MeViewController.swift */,
+				849A019427B8856100C4475A /* Special Functions */,
+				840D2EBB27B767A0001DB869 /* Assets.xcassets */,
+				840D2EB827B7679E001DB869 /* Main.storyboard */,
+				840D2EBD27B767A0001DB869 /* LaunchScreen.storyboard */,
+				849A018827B7FD8700C4475A /* Poppins-Light.ttf */,
+				840D2EC027B767A0001DB869 /* Info.plist */,
+			);
+			path = "Word Erp";
+			sourceTree = "<group>";
+		};
+		840D2EC827B767A1001DB869 /* Word ErpTests */ = {
+			isa = PBXGroup;
+			children = (
+				840D2EC927B767A1001DB869 /* Word_ErpTests.swift */,
+			);
+			path = "Word ErpTests";
+			sourceTree = "<group>";
+		};
+		840D2ED227B767A1001DB869 /* Word ErpUITests */ = {
+			isa = PBXGroup;
+			children = (
+				840D2ED327B767A1001DB869 /* Word_ErpUITests.swift */,
+				840D2ED527B767A1001DB869 /* Word_ErpUITestsLaunchTests.swift */,
+			);
+			path = "Word ErpUITests";
+			sourceTree = "<group>";
+		};
+		849A019427B8856100C4475A /* Special Functions */ = {
+			isa = PBXGroup;
+			children = (
+				849A018427B7EE7500C4475A /* Functions.swift */,
+				849A018627B7EEE800C4475A /* Extensions.swift */,
+			);
+			path = "Special Functions";
+			sourceTree = "<group>";
+		};
+		849A019527B8858800C4475A /* Custom */ = {
+			isa = PBXGroup;
+			children = (
+				849A018227B7EAAB00C4475A /* CustomVariables.swift */,
+				849A018A27B8132A00C4475A /* Database.swift */,
+			);
+			path = Custom;
+			sourceTree = "<group>";
+		};
+		ECDEB6509E26FCA633FE5847 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				849A017E27B7E69E00C4475A /* GameKit.framework */,
+				0EF1A1A6C1724BFA4F65ADF2 /* Pods_Word_Erp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		840D2EAE27B7679E001DB869 /* Word Erp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 840D2ED927B767A1001DB869 /* Build configuration list for PBXNativeTarget "Word Erp" */;
+			buildPhases = (
+				4C3EDC2F90B2651E692311B3 /* [CP] Check Pods Manifest.lock */,
+				840D2EAB27B7679E001DB869 /* Sources */,
+				840D2EAC27B7679E001DB869 /* Frameworks */,
+				840D2EAD27B7679E001DB869 /* Resources */,
+				7246E2ED4C28CD6E35B3210D /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Word Erp";
+			productName = "Word Erp";
+			productReference = 840D2EAF27B7679E001DB869 /* Word Erp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		840D2EC427B767A1001DB869 /* Word ErpTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 840D2EDC27B767A1001DB869 /* Build configuration list for PBXNativeTarget "Word ErpTests" */;
+			buildPhases = (
+				840D2EC127B767A1001DB869 /* Sources */,
+				840D2EC227B767A1001DB869 /* Frameworks */,
+				840D2EC327B767A1001DB869 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				840D2EC727B767A1001DB869 /* PBXTargetDependency */,
+			);
+			name = "Word ErpTests";
+			productName = "Word ErpTests";
+			productReference = 840D2EC527B767A1001DB869 /* Word ErpTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		840D2ECE27B767A1001DB869 /* Word ErpUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 840D2EDF27B767A1001DB869 /* Build configuration list for PBXNativeTarget "Word ErpUITests" */;
+			buildPhases = (
+				840D2ECB27B767A1001DB869 /* Sources */,
+				840D2ECC27B767A1001DB869 /* Frameworks */,
+				840D2ECD27B767A1001DB869 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				840D2ED127B767A1001DB869 /* PBXTargetDependency */,
+			);
+			name = "Word ErpUITests";
+			productName = "Word ErpUITests";
+			productReference = 840D2ECF27B767A1001DB869 /* Word ErpUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		840D2EA727B7679E001DB869 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					840D2EAE27B7679E001DB869 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					840D2EC427B767A1001DB869 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 840D2EAE27B7679E001DB869;
+					};
+					840D2ECE27B767A1001DB869 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 840D2EAE27B7679E001DB869;
+					};
+				};
+			};
+			buildConfigurationList = 840D2EAA27B7679E001DB869 /* Build configuration list for PBXProject "Word Erp" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 840D2EA627B7679E001DB869;
+			productRefGroup = 840D2EB027B7679E001DB869 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				840D2EAE27B7679E001DB869 /* Word Erp */,
+				840D2EC427B767A1001DB869 /* Word ErpTests */,
+				840D2ECE27B767A1001DB869 /* Word ErpUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		840D2EAD27B7679E001DB869 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				840D2EBF27B767A0001DB869 /* LaunchScreen.storyboard in Resources */,
+				840D2EBC27B767A0001DB869 /* Assets.xcassets in Resources */,
+				840D2EBA27B7679E001DB869 /* Main.storyboard in Resources */,
+				849A018927B7FD8700C4475A /* Poppins-Light.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		840D2EC327B767A1001DB869 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		840D2ECD27B767A1001DB869 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4C3EDC2F90B2651E692311B3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Word Erp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7246E2ED4C28CD6E35B3210D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Word Erp/Pods-Word Erp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Word Erp/Pods-Word Erp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Word Erp/Pods-Word Erp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		840D2EAB27B7679E001DB869 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				849A018127B7E89700C4475A /* PlayViewController.swift in Sources */,
+				849A018327B7EAAB00C4475A /* CustomVariables.swift in Sources */,
+				849A018727B7EEE800C4475A /* Extensions.swift in Sources */,
+				849A018F27B860C900C4475A /* PlayOptionsViewController.swift in Sources */,
+				849A018527B7EE7500C4475A /* Functions.swift in Sources */,
+				849A018D27B860BA00C4475A /* HomeViewController.swift in Sources */,
+				849A019327B8855000C4475A /* MeViewController.swift in Sources */,
+				840D2EB327B7679E001DB869 /* AppDelegate.swift in Sources */,
+				849A018B27B8132A00C4475A /* Database.swift in Sources */,
+				849A019127B87C5D00C4475A /* PracticeViewController.swift in Sources */,
+				84AE54FE27B76AF000091A8F /* ChatViewController.swift in Sources */,
+				840D2EB527B7679E001DB869 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		840D2EC127B767A1001DB869 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				840D2ECA27B767A1001DB869 /* Word_ErpTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		840D2ECB27B767A1001DB869 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				840D2ED627B767A1001DB869 /* Word_ErpUITestsLaunchTests.swift in Sources */,
+				840D2ED427B767A1001DB869 /* Word_ErpUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		840D2EC727B767A1001DB869 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 840D2EAE27B7679E001DB869 /* Word Erp */;
+			targetProxy = 840D2EC627B767A1001DB869 /* PBXContainerItemProxy */;
+		};
+		840D2ED127B767A1001DB869 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 840D2EAE27B7679E001DB869 /* Word Erp */;
+			targetProxy = 840D2ED027B767A1001DB869 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		840D2EB827B7679E001DB869 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				840D2EB927B7679E001DB869 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		840D2EBD27B767A0001DB869 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				840D2EBE27B767A0001DB869 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		840D2ED727B767A1001DB869 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		840D2ED827B767A1001DB869 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		840D2EDA27B767A1001DB869 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A1470C2D1D5C49EDCA6D1246 /* Pods-Word Erp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 59QR4NSW8K;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Word Erp/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = gamekit;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "koalaattack.com.Word-Erp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		840D2EDB27B767A1001DB869 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8A79C8ECBCD85BE26CE3E6EF /* Pods-Word Erp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 59QR4NSW8K;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Word Erp/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = gamekit;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "koalaattack.com.Word-Erp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		840D2EDD27B767A1001DB869 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 59QR4NSW8K;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "koalaattack.Word-ErpTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Word Erp.app/Word Erp";
+			};
+			name = Debug;
+		};
+		840D2EDE27B767A1001DB869 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 59QR4NSW8K;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "koalaattack.Word-ErpTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Word Erp.app/Word Erp";
+			};
+			name = Release;
+		};
+		840D2EE027B767A1001DB869 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 59QR4NSW8K;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "koalaattack.Word-ErpUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Word Erp";
+			};
+			name = Debug;
+		};
+		840D2EE127B767A1001DB869 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 59QR4NSW8K;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "koalaattack.Word-ErpUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Word Erp";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		840D2EAA27B7679E001DB869 /* Build configuration list for PBXProject "Word Erp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				840D2ED727B767A1001DB869 /* Debug */,
+				840D2ED827B767A1001DB869 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		840D2ED927B767A1001DB869 /* Build configuration list for PBXNativeTarget "Word Erp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				840D2EDA27B767A1001DB869 /* Debug */,
+				840D2EDB27B767A1001DB869 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		840D2EDC27B767A1001DB869 /* Build configuration list for PBXNativeTarget "Word ErpTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				840D2EDD27B767A1001DB869 /* Debug */,
+				840D2EDE27B767A1001DB869 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		840D2EDF27B767A1001DB869 /* Build configuration list for PBXNativeTarget "Word ErpUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				840D2EE027B767A1001DB869 /* Debug */,
+				840D2EE127B767A1001DB869 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 840D2EA727B7679E001DB869 /* Project object */;
+}
